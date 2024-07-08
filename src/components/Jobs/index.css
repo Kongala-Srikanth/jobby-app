@@ -1,0 +1,272 @@
+.jobs-page-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.jobs-page-main-container {
+  padding: 25px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.profile-error-btn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-box {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.search-container {
+  border: 1px solid #7e858e;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.search-icon {
+  font-size: 18px;
+}
+
+.search-btn {
+  background-color: #272727;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.lg-search-container {
+  display: none;
+}
+
+.job-page-failure-view {
+  width: 100%;
+}
+
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-details-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.profile-error-container {
+  height: 250px;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  height: 55px;
+}
+
+.user-name {
+  color: #6366f1;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.user-role {
+  color: #2c364c;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.checkbox-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.filter-heading {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.label-text {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.checkbox-each-list {
+  margin-top: 10px;
+}
+
+hr {
+  border: 1px solid #7e858e;
+}
+.job-page-post-card {
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.company-logo {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.job-page-role {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.job-page-package {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.job-page-location {
+  font-size: 14px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.job-page-post-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-page-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-page-package-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.job-page-location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.job-page-description {
+  font-size: 13px;
+  margin-top: 12px;
+  line-height: 1.4;
+}
+
+.job-page-description-heading {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.star-icon {
+  font-size: 15px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.page-error-heading {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page-error-text {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-page-main-container {
+    display: flex;
+  }
+
+  .sm-search-container {
+    display: none;
+  }
+
+  .page-error-text {
+    font-size: 16px;
+  }
+
+  .page-error-heading {
+    font-size: 38px;
+  }
+
+  .all-post-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .lg-search-container {
+    display: block;
+    width: 50%;
+  }
+
+  .filter-container {
+    width: 65%;
+    margin-right: 30px;
+  }
+
+  .job-page-failure-view {
+    margin-top: 20%;
+    height: 400px;
+    width: 550px;
+  }
+}
+
+@media (min-width: 992px) {
+  .filter-container {
+    width: 40%;
+  }
+  .job-page-failure-view {
+    margin-top: 5%;
+    width: 600px;
+    height: 500px;
+  }
+}

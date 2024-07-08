@@ -1,0 +1,86 @@
+.homepage-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+.homepage-card {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.homepage-main-heading {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.homepage-description {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #f8fafc;
+  line-height: 1.5;
+}
+
+.find-job-btn {
+  background-color: #6366f1;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .homepage-main-heading {
+    font-size: 30px;
+  }
+
+  .homepage-description {
+    font-size: 18px;
+  }
+
+  .find-job-btn {
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .homepage-card {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .homepage-bg {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-position: center;
+  }
+
+  .homepage-main-heading {
+    font-size: 50px;
+  }
+
+  .homepage-description {
+    font-size: 25px;
+  }
+
+  .find-job-btn {
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .homepage-card {
+    padding: 40px;
+
+    width: 75%;
+  }
+}
